@@ -1,5 +1,5 @@
 
-# Projects for an Operating Systems Class
+# Project for an Operating Systems Class
 
 This repository holds a number of projects that can be used in an operating
 systems class aimed at upper-level undergraduates and (in some cases)
