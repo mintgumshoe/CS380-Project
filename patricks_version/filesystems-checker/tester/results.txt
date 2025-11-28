@@ -1,0 +1,222 @@
+========== Test 1 ==========
+--- Standard Output ---
+
+--- Standard Error ---
+Usage: xcheck <file_system_image>
+
+Return code: 0
+==========        ==========
+
+========== Test 2 ==========
+--- Standard Output ---
+
+--- Standard Error ---
+image not found.
+
+Return code: 0
+==========        ==========
+
+========== Test 3 ==========
+--- Standard Output ---
+
+--- Standard Error ---
+
+Return code: 0
+==========        ==========
+
+========== Test 4 ==========
+--- Standard Output ---
+
+--- Standard Error ---
+ERROR: bad inode.
+
+Return code: 0
+==========        ==========
+
+========== Test 5 ==========
+--- Standard Output ---
+
+--- Standard Error ---
+ERROR: bad direct address in inode.
+
+Return code: 0
+==========        ==========
+
+========== Test 6 ==========
+--- Standard Output ---
+
+--- Standard Error ---
+ERROR: bad direct address in inode.
+
+Return code: 0
+==========        ==========
+
+========== Test 7 ==========
+--- Standard Output ---
+
+--- Standard Error ---
+
+Return code: 0
+==========        ==========
+
+========== Test 8 ==========
+--- Standard Output ---
+
+--- Standard Error ---
+ERROR: bad indirect address in inode.
+
+Return code: 0
+==========        ==========
+
+========== Test 9 ==========
+--- Standard Output ---
+
+--- Standard Error ---
+ERROR: bad indirect address in inode.
+
+Return code: 0
+==========        ==========
+
+========== Test 10 ==========
+--- Standard Output ---
+
+--- Standard Error ---
+
+Return code: 0
+==========        ==========
+
+========== Test 11 ==========
+--- Standard Output ---
+
+--- Standard Error ---
+ERROR: bad indirect address in inode.
+
+Return code: 0
+==========        ==========
+
+========== Test 12 ==========
+--- Standard Output ---
+
+--- Standard Error ---
+ERROR: bad indirect address in inode.
+
+Return code: 0
+==========        ==========
+
+========== Test 13 ==========
+--- Standard Output ---
+
+--- Standard Error ---
+ERROR: root directory does not exist.
+
+Return code: 0
+==========        ==========
+
+========== Test 14 ==========
+--- Standard Output ---
+
+--- Standard Error ---
+ERROR: root directory does not exist.
+
+Return code: 0
+==========        ==========
+
+========== Test 15 ==========
+--- Standard Output ---
+
+--- Standard Error ---
+ERROR: directory not properly formatted.
+
+Return code: 0
+==========        ==========
+
+========== Test 16 ==========
+--- Standard Output ---
+
+--- Standard Error ---
+ERROR: directory not properly formatted.
+
+Return code: 0
+==========        ==========
+
+========== Test 17 ==========
+--- Standard Output ---
+
+--- Standard Error ---
+ERROR: address used by inode but marked free in bitmap.
+
+Return code: 0
+==========        ==========
+
+========== Test 18 ==========
+--- Standard Output ---
+
+--- Standard Error ---
+ERROR: address used by inode but marked free in bitmap.
+
+Return code: 0
+==========        ==========
+
+========== Test 19 ==========
+--- Standard Output ---
+
+--- Standard Error ---
+ERROR: address used by inode but marked free in bitmap.
+
+Return code: 0
+==========        ==========
+
+========== Test 20 ==========
+--- Standard Output ---
+
+--- Standard Error ---
+ERROR: bitmap marks block in use but it is not in use.
+
+Return code: 0
+==========        ==========
+
+========== Test 21 ==========
+--- Standard Output ---
+
+--- Standard Error ---
+ERROR: indirect address used more than once.
+
+Return code: 0
+==========        ==========
+
+========== Test 22 ==========
+--- Standard Output ---
+
+--- Standard Error ---
+ERROR: inode marked use but not found in a directory.
+
+Return code: 0
+==========        ==========
+
+========== Test 23 ==========
+--- Standard Output ---
+
+--- Standard Error ---
+ERROR: inode referred to in directory but marked free.
+
+Return code: 0
+==========        ==========
+
+========== Test 24 ==========
+--- Standard Output ---
+
+--- Standard Error ---
+ERROR: bad reference count for file.
+
+Return code: 0
+==========        ==========
+
+========== Test 25 ==========
+--- Standard Output ---
+
+--- Standard Error ---
+ERROR: directory appears more than once in file system.
+
+Return code: 0
+==========        ==========
+
