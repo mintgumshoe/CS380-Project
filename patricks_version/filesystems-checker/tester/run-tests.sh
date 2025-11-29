@@ -43,6 +43,7 @@ for i in $(seq 1 $NUM_TESTS); do
         echo "Return code saved to: $RC_FILE"
 
         {
+            echo ""
             echo "========== Test ${i} =========="
             echo "--- Standard Output ---"
             cat "${OUT_FILE}"
@@ -53,6 +54,7 @@ for i in $(seq 1 $NUM_TESTS); do
             echo "Return code: $?"
             echo "==========        =========="
             echo ""
+
         } >> $RESULTS_FILE
     else
         echo "Skipping: $TEST_FILE not found."
