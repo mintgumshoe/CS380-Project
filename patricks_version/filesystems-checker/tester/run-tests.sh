@@ -1,19 +1,15 @@
 #!/bin/bash
 
-NUM_TESTS=25
-
-# Directory to store results
-# RESULTS_DIR="tests_results"
-# mkdir -p "$RESULTS_DIR"
+# Because the makefile forgot to make one, lets write one! 
 
 echo "Starting tests..."
 CURRENT_DIR=$(pwd)
 
 RESULTS_FILE="tester/results.txt"
-# Clear the previous results if the file exists
 > "$RESULTS_FILE"
 echo "Previous test cleared from results.txt"
 
+NUM_TESTS=25
 # Loop through each test file
 for i in $(seq 1 $NUM_TESTS); do
     
